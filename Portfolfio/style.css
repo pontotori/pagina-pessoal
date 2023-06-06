@@ -1,0 +1,39 @@
+:root {
+    --white: #fff;
+    --dark1: #343443;
+    --dark2: #34415a; 
+    --dark3: #566961;
+    --dark4: #89a7b1;
+    --dark5: #cbdadd5;
+    --cyan: #70e3ea;
+}
+/* Reset do CSS - todos seletores*/
+*{
+   margin: 0;
+   padding: 0;
+}
+body{
+    background-color:var(--dark1);
+   height:100vh;
+   font-family: "Lato";
+   
+
+
+}
+header{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    padding: 0.8rem;
+    background-color: var(dark2);
+    min-height: 50px;
+}
+nav{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
